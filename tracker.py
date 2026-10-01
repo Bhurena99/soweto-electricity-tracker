@@ -1,20 +1,15 @@
-# Soweto Electricity Tracker ⚡
-Tracking the economic cost of load-shedding on Soweto small businesses
+# Soweto Electricity Tracker
+# Day 2 - Economics + Data
 
-## Problem
-Small businesses in Soweto lose R300-R800 per day during load-shedding. No public data tracks this locally.
+import datetime
 
-## Solution
-Building a data pipeline to collect outage schedules and estimate daily revenue loss using econometric models.
+print("Soweto Small Business Impact Tracker")
+print(f"Date: {datetime.date.today()}")
 
-## Tech Stack
-- Python, Pandas
-- EskomSePush API (coming next)
-- Data Visualization
+hours_without_power = 4.5
+hourly_revenue = 150
+daily_loss = hours_without_power * hourly_revenue
 
-## Author
-Bhurena99 | Economics Graduate | Based in Soweto, SA
-Building portfolio for Data Economist roles.
-
-## Status
-Week 1 - Setup ✅ | Day 2 - Adding first analysis
+print(f"Hours without power: {hours_without_power}")
+print(f"Estimated loss today: R{daily_loss}")
+print("Next: Connect to real EskomSePush API")
