@@ -1,5 +1,3 @@
-# soweto-electricity-tracker
-Tracking the economic cost of load-shedding on all Sowetho small businesses
 # Soweto Electricity Tracker ⚡
 Tracking the economic cost of load-shedding on Soweto small businesses
 
